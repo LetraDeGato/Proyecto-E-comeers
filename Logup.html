@@ -21,7 +21,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Gatto</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,6 +38,17 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Contactanos</a>
               </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Inicio de Sesión
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Iniciar sesion</a></li>
+                  <li><a class="dropdown-item" href="#">Registrate</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Mundo</a></li>
+                </ul>
+              </li>
             </ul>
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
@@ -45,6 +56,49 @@
             </form>
           </div>
         </div>
-    </nav>
+  </nav>
+  <div class="container">
+    <form class="row g-3 mt-3">
+
+      <div class="col-12">
+        <label for="inputName" class="form-label">Nombres</label>
+        <input type="text" class="form-control" id="inputName" placeholder="Nombres">
+      </div>
+
+      <div class="col-12">
+        <label for="inputLastname" class="form-label">Apellidos</label>
+        <input type="text" class="form-control" id="inputLastname" placeholder="Apellidos">
+      </div>
+
+      <div class="col-12">
+        <label for="emailImput" class="form-label">Email</label>
+        <input type="email" class="form-control" id="emailImput" placeholder="Escribe tu Email">
+      </div> <br>
+
+      <div class="col-6">
+        <label for="inputPass" class="form-label">Contraseña</label>
+        <input type="password" class="form-control" id="inputPass" placeholder="Escribe tu contraseña">
+      </div>
+      <div class="col-6">
+        <label for="inputPassconfirmation" class="form-label">Contraseña</label>
+        <input type="password" class="form-control" id="inputPassconfirmation" placeholder="Confirma tu contraseña">
+      </div>
+
+      <div class="col-12">
+        <label for="inputAddress" class="form-label">Dirección</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="Dirección">
+      </div>
+
+      <div class="col-6">
+        <label for="cityInput" class="form-label">Ciudad</label>
+        <input type="text" class="form-control" id="cityInput" placeholder="Ciudad">
+      </div>
+
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary"> Registrate </button>
+      </div>
+
+    </form>
+  </div>
     
 </body>
