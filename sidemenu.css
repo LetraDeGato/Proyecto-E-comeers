@@ -37,13 +37,12 @@ body{
 }
 
 #photoUser {
-    max-width: 200px;
-    margin: 0;
+    max-width: 300px ;
+    margin: 0 ;
 }
 #photoUser img{
-    max-width: 100%;
+    max-width: 100% ;
 }
-
 
 .nav-list{
     color: var(--color-white);
@@ -60,4 +59,8 @@ ul{
 
 #card-text .text-white{
     color: var(--color-white);
+}
+
+img {
+    height: 50% !important;
 }
